@@ -1,0 +1,5 @@
+interface:
+  display_name: "To Plan"
+  short_description: "Turn the conversation into a plan document"
+policy:
+  allow_implicit_invocation: false

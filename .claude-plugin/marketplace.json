@@ -1,23 +1,15 @@
 {
-  "name": "mattpocock",
+  "name": "kami",
   "owner": {
-    "name": "Matt Pocock",
-    "url": "https://www.aihero.dev"
+    "name": "KamiSQMF"
   },
-  "description": "Matt Pocock's skills for real engineering, as an installable Claude Code plugin.",
+  "description": "Kami's personal agent skills.",
   "plugins": [
     {
-      "name": "mattpocock-skills",
+      "name": "kami",
       "source": "./",
-      "description": "Matt Pocock's agent skills for real engineering (grilling, spec/ticket flows, TDD, code review, domain modelling and more).",
-      "category": "engineering",
-      "keywords": [
-        "engineering",
-        "skills",
-        "tdd",
-        "code-review",
-        "grilling"
-      ]
+      "description": "Kami's agent workflow: planning, capped review, results reports and retros.",
+      "category": "productivity"
     }
   ]
 }

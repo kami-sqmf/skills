@@ -1,7 +1,10 @@
 ---
 name: diagnosing-bugs
-description: Diagnosis loop for hard bugs and performance regressions. Use when the user says "diagnose"/"debug this", or reports something broken/throwing/failing/slow.
+description: Diagnosis loop for hard bugs and performance regressions. Use when the user says "diagnose"/"debug this", or reports something broken/throwing/failing/slow. Also use when the user says "怎麼又壞了", "找出問題並修正", "除錯", "為什麼會這樣".
 ---
+
+Talk to the user in Traditional Chinese.
+
 
 # Diagnosing Bugs
 

@@ -5,6 +5,8 @@ description: Build and sharpen a project's domain model. Use when discussing cod
 
 # Domain Modeling
 
+Talk to the user in Traditional Chinese. Glossary terms may be Chinese, English, or both, matching how the user and the code actually say them.
+
 Actively build and sharpen the project's domain model as you design. This is the *active* discipline: challenging terms, inventing edge-case scenarios, and writing the glossary and decisions down the moment they crystallise. (Merely *reading* `GLOSSARY.md` for vocabulary is not this skill: that's a one-line habit any skill can do. This skill is for when you're changing the model, not just consuming it.)
 
 ## File structure
@@ -71,4 +73,8 @@ Only offer to create an ADR when all three are true:
 2. **Surprising without context**: a future reader will wonder "why did they do it this way?"
 3. **The result of a real trade-off**: there were genuine alternatives and you picked one for specific reasons
 
-If any of the three is missing, skip the ADR. Use the format in [ADR-FORMAT.md](./ADR-FORMAT.md).
+If any of the three is missing, skip the ADR. A choice that is the user's (see `grilling`) goes on a question card before it becomes an ADR; a technical trade-off you made yourself can be recorded directly, marked 「主代理自定」.
+
+**Write history, not the present.** Date every ADR. When a decision is overturned, write a new ADR that supersedes it and mark the old one superseded; never delete or rewrite the old one.
+
+Use the format in [ADR-FORMAT.md](./ADR-FORMAT.md).

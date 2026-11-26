@@ -1,8 +1,10 @@
 ---
 name: retro
-description: "Conduct a retrospective on a coding session."
+description: "Conduct a retrospective on a session: write memory and live-testing notes, then suggest changes to the agent's environment for the user to pick. Use when the user types /retro or says \"回顧\", \"下次怎麼改進\", \"檢討這次\"."
 disable-model-invocation: true
 ---
+
+Talk to the user in Traditional Chinese.
 
 The user has asked for a **retrospective**. You are suggesting improvements to the coding agent's **environment** to improve future runs.
 
@@ -22,7 +24,11 @@ The user has asked for a **retrospective**. You are suggesting improvements to t
 - **No-ops**: look for instructions in steering files that don't modify the agent's behavior. _Use when_ the steering files are large and unwieldy.
 - **Information access**: look for opportunities to increase the agent's access to information. Teeing dev server logs, readonly access to third-party services. _Use when_ a crucial piece of information was not available to the agent.
 
-4. Present these candidates to the user, in order of severity.
+- **Review findings**: did the same kind of 建議 or 小毛病 come up again in `/plan-review`? Turn it into a standard (judgement calls) or an automated check (mechanical patterns). _Use when_ the batch records list recurring findings.
+- **Memory**: did the user correct you, state a preference, or make a decision later sessions will ask about again? Write it to memory now, with **Why** and **How to apply**. _Use when_ the session contains a correction or a repeated question.
+- **Live-testing doc**: did live testing teach something (a quirk, a step that has to be done by hand, a recording to pin)? Add it to the project's live-testing doc. _Use when_ the session included live testing.
+
+4. Write memory entries and live-testing notes yourself right away: they change no behaviour on their own. Present the other candidates to the user in order of severity, one line each with what it would change, then ask on one question card (`multiSelect`) which to pursue. Pursue only the picked ones.
 
 ## Reference
 

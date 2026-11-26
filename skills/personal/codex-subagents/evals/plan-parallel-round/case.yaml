@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: plan-parallel-round
+expected_outcome: |
+  A parallel Codex plan with one brief file per agent (disjoint ownership, shared files main.rs/App.svelte
+  kept by the main agent or one owner), same-tree rather than worktrees because of uncommitted changes,
+  background launch commands that resolve codex.exe fresh, no secrets, nothing launched.

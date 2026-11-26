@@ -1,0 +1,5 @@
+interface:
+  display_name: "Which"
+  short_description: "Which skill fits right now"
+policy:
+  allow_implicit_invocation: false

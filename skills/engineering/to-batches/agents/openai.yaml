@@ -1,0 +1,5 @@
+interface:
+  display_name: "To Batches"
+  short_description: "Break a plan into ordered batches of tickets"
+policy:
+  allow_implicit_invocation: false

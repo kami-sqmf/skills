@@ -1,9 +1,12 @@
 ---
 name: handoff
-description: Compact the current conversation into a handoff document for another agent to pick up.
+description: Compact the current conversation into a handoff document for another agent to pick up. Also use when the user says "交接", "換一個 session 接手", "handoff".
 argument-hint: "What will the next session be used for?"
 disable-model-invocation: true
 ---
+
+Talk to the user in Traditional Chinese.
+
 
 Write a handoff document summarising the current conversation so a fresh agent can continue the work. Save to the temporary directory of the user's OS (`$TMPDIR`, else `/tmp`; `%TEMP%` on Windows) - not the current workspace.
 

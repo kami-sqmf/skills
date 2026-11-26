@@ -1,0 +1,5 @@
+interface:
+  display_name: "Expand States"
+  short_description: "List every situation and pair it with a test"
+policy:
+  allow_implicit_invocation: true

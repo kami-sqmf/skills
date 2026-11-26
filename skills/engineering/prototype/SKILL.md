@@ -1,7 +1,10 @@
 ---
 name: prototype
-description: Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a UI should look like.
+description: Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a UI should look like. Also use when the user says "做原型", "先做個 demo 看看", "做幾種版本比較".
 ---
+
+Talk to the user in Traditional Chinese.
+
 
 # Prototype
 

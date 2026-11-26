@@ -1,6 +1,6 @@
 ---
 name: pr
-description: "Use when writing a PR body."
+description: "Use when writing a PR body. Also use when the user says \"開 PR\", \"寫 PR 說明\"."
 metadata:
   credits:
     skill: show-me
@@ -8,6 +8,9 @@ metadata:
     organisation: Humanlayer
     url: "https://github.com/humanlayer/skills/blob/main/plugins/show-me/skills/show-me/SKILL.md"
 ---
+
+Talk to the user in Traditional Chinese.
+
 
 Use this template for writing the PR body:
 

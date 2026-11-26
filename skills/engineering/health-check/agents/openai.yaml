@@ -1,0 +1,5 @@
+interface:
+  display_name: "Health Check"
+  short_description: "Visual report of deepening opportunities"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Setup Project"
+  short_description: "Write this project's layer in docs/agents/"
+policy:
+  allow_implicit_invocation: false

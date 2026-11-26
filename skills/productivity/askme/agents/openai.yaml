@@ -1,0 +1,5 @@
+interface:
+  display_name: "Ask Me"
+  short_description: "Question-card interview before work starts"
+policy:
+  allow_implicit_invocation: false

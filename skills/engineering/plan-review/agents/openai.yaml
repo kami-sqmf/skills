@@ -1,0 +1,5 @@
+interface:
+  display_name: "Plan Review"
+  short_description: "Capped two-axis review against the plan"
+policy:
+  allow_implicit_invocation: true

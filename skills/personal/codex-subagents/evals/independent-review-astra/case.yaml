@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: independent-review-astra
+expected_outcome: |
+  Codex (the newest Astra model) runs read-only with focus areas (not conclusions), its full review comes back via the
+  final message, review.md is saved in readable UTF-8, and the main agent checks findings before relaying.
+context:
+  scaffold_script: place-files.sh

@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: implement-with-sol
+expected_outcome: |
+  Codex (the newest Sol model, workspace-write) is actually launched on the copied project with a written brief,
+  implements top_words, and the main agent reruns the tests itself before reporting in Traditional Chinese.
+context:
+  scaffold_script: place-files.sh
