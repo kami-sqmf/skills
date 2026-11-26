@@ -1,6 +1,6 @@
 {
   "name": "kami",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Kami's agent workflow: planning, capped review, results reports and retros.",
   "author": {
     "name": "KamiSQMF"
