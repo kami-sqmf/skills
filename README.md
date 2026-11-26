@@ -19,7 +19,7 @@
 
 ## 安裝（每台機器各做一次，之後自動更新）
 
-這個 repo 本身就是一個 plugin 市集。repo 是私人的，所以每台機器要先能用 git 存取 GitHub（`gh auth login` 或 SSH 金鑰）。
+這個 repo 本身就是一個公開的 plugin 市集，任何機器都能直接加入，不需要登入 GitHub。
 
 **Claude Code**（Windows、SSH 主機、Mac 都一樣）：
 
@@ -37,7 +37,7 @@ codex plugin marketplace add kami-sqmf/skills
 codex plugin add kami@kami
 ```
 
-更新：Claude Code 會自動更新；Codex 跑 `codex plugin marketplace upgrade`。
+更新：Claude Code 會自動更新；Codex 跑 `codex plugin marketplace upgrade`。只有 `.claude-plugin/plugin.json` 的版本號變了才會更新。
 
 **不想用 plugin 的機器**：改跑 `scripts/install.ps1`（Windows）或 `scripts/install.sh`（Linux、macOS），用連結的方式裝進 `~/.claude/skills`，並把全域規則寫進 `~/.claude/CLAUDE.md`。兩種方式擇一，不要同時用，否則每個 skill 會出現兩次。
 
